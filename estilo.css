@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Sport';
+    src: url('fonts/octin\ sports\ rg.otf') format('opentype');
+}
+
+:root {
+    --cor00: #152C3B;
+    --cor01: #496773;
+    --cor02: #216191;
+    --cor03: #3897CF;
+    --cor04: #ACEBF2;
+    --cor05: #fdfdfd;
+    
+    --fonte-destaque: 'Sport', cursive;
+    --fonte-padrao: Arial, Helvetica, Verdana, sans-serif;
+    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right, var(--cor05), transparent);
+    
+}
+
+
+
+.icone-nfl {
+    padding: 30px 0 5px 0;
+    
+
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor03), var(--cor04));
+    min-height: 200px;
+    
+}
+
+
+.titulo-principal {
+    font-family: var(--fonte-destaque);
+    font-size: 60px;
+    
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--cor04);
+    color: var(--cor00);
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    
+}
+
+
+
+.primeiro-paragrafo {
+    font-family: var(--fonte-destaque);
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--cor00);
+    padding: 5px 0 30px;
+    text-align: center;
+    
+    
+    
+    
+}
+
+nav {
+    background-color: var(--cor04);
+    padding: 10px;
+    
+}
+
+li > a {
+    text-decoration: none;
+    color: var(--cor00);
+    
+}
+
+.menu-link {
+    font-family: var(--fonte-destaque);
+    font-size: 20px;
+    
+    font-weight: bold;
+    
+    padding: 5px;
+    
+    display: inline;
+    
+}
+
+a:hover {
+    font-size: 1.3em;
+    background-color: var(--cor02);
+    color: var(--cor05);
+}
+
+
+section {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-family: var(--fonte-padrao);
+    width: 650px;
+}
+
+main h1 {
+    font-family: var(--fonte-destaque);
+    background-image: repeating-linear-gradient(to right, var(--cor04), transparent);
+    padding: 5px;
+    margin-bottom: 30px;
+    
+
+}
+
+h2 {
+    font-family: var(--fonte-destaque);
+    background-image: repeating-linear-gradient(to right, var(--cor04), transparent);
+}
+
+h3 {
+    font-family: var(--fonte-destaque);
+    padding: 5px;
+    text-decoration: underline;
+    margin: 30px 10px;
+
+
+}
+
+p {
+    text-indent: 30px;
+    line-height: 1.8em;
+    text-align: justify;
+    margin-bottom: 30px;
+    margin: 15px 0px;
+    font-size: 1.1em;
+}
+
+
+
+
+.lista-regras {
+    line-height: 1.9em;
+    list-style-position: inside;
+    list-style-type: "\1F3C8\00A0\00A0";
+}
+
+footer {
+    font-family: var(--fonte-padrao);
+    font-size: 18px;
+    background-color: var(--cor04);
+    text-align: center;
+    padding: 10px;
+
+}
+
+footer > strong {
+    font-family: var(--fonte-destaque);
+}
